@@ -1,0 +1,24 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 310 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 42841 0 -1
+ciMethod java/lang/Object toString ()Ljava/lang/String; 0 0 1 0 -1
+ciMethod java/lang/String <init> ([CII)V 2065 1 5478 0 -1
+ciMethod java/lang/String valueOf (Ljava/lang/Object;)Ljava/lang/String; 193 1 26 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 1065 1 133 0 -1
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;)V 2113 1 2317 0 -1
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2081 1 3113 0 -1
+ciMethod java/lang/ref/WeakReference <init> (Ljava/lang/Object;)V 2057 1 1737 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 705 1 2535 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 1281 1 4296 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 697 1 1784 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/Object;)Ljava/lang/StringBuilder; 193 1 24 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1281 1 4146 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 713 1 1950 0 -1
+ciMethod java/lang/Enum equals (Ljava/lang/Object;)Z 841 1 105 0 -1
+ciMethodData java/lang/Object <init> ()V 2 42841 orig 264 104 147 3 86 0 0 0 0 128 4 162 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 201 42 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/lang/IllegalArgumentException <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethodData java/lang/String <init> ([CII)V 2 5478 orig 264 104 147 3 86 0 0 0 0 88 49 162 20 0 0 0 0 80 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 33 163 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 240 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 30 0x10002 0x1464 0x50007 0x1464 0x30 0x0 0xd0002 0x0 0x120007 0x1462 0x70 0x2 0x160007 0x2 0x30 0x0 0x1e0002 0x0 0x250007 0x0 0x20 0x2 0x370007 0x1462 0x30 0x0 0x410002 0x0 0x4b0002 0x1462 oops 0
